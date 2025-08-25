@@ -1,4 +1,5 @@
 <?php
+// Función que genera una pirámide de asteriscos
 function piramideAsteriscos($filas) {
     for ($i = 1; $i <= $filas; $i++) {
         echo str_repeat(" ", $filas - $i);

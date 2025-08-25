@@ -1,4 +1,5 @@
 <?php
+// Función que invierte un array
 function invertirLista($array) {
     return array_reverse($array);
 }

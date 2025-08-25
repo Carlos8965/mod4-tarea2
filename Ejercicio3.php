@@ -1,4 +1,5 @@
 <?php
+// Función que cuenta la frecuencia de caracteres en una cadena
 function frecuenciaCaracteres($cadena) {
     $frecuencia = [];
     for ($i = 0; $i < strlen($cadena); $i++) {

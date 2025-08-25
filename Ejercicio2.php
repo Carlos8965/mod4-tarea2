@@ -1,4 +1,5 @@
 <?php
+// Función que suma los números pares de un array
 function sumaPares($array) {
     $suma = 0;
     foreach ($array as $num) {
